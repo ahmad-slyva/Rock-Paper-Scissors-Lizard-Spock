@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Home</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+<body>
+<header>
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div id="score-board">
+
+        <div id="user-label" class="badge">You</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-result">0</span>:<span id="computer-result">0</span>
+    </div>
+
+
+
+    <div id="choices">
+        <div id="r" class="choice"><p>Rock</p></div>
+        <div id="p" class="choice"><p>Paper</p></div>
+        <div id="s" class="choice"><p>Scissors</p></div>
+        <div id="l" class="choice"><p>Lizard</p></div>
+        <div id="k" class="choice"><p>Spock</p></div>
+    </div>
+
+    <div id="choice-display">
+    <div id="user_choice" class="choices-indicator"></div>
+    <div id="comp_choice" class="choices-indicator"></div>
+    </div>
+
+<div id="game-rules">
+    <span id="game_word">Game </span><span id="rules_word">Rules</span>
+     <ol id="rules-list">
+<!--
+<span class="rock-word">Rock </span>
+<span class="paper-word"> Paper</span>
+<span class="scissors-word"> Scissors</span>
+<span class="lizard-word"> Lizard</span>
+<span class="spock-word"> Spock</span>
+-->
+         <li id="rs"><span class="rock-word">Rock </span>crushes<span class="scissors-word"> Scissors</span></li>
+         <li id="rl"><span class="rock-word">Rock </span>
+Kills<span class="lizard-word"> Lizard</span>
+</li>
+         <li id="pr"><span class="paper-word"> Paper</span>
+Covers<span class="rock-word"> Rock </span>
+ </li>
+         <li id="pk"><span class="paper-word"> Paper</span>
+Disproves <span class="spock-word"> Spock</span>
+</li>
+         <li id="sp"><span class="scissors-word"> Scissors</span>
+Cut<span class="paper-word"> Paper</span>
+</li>
+         <li id="sl"><span class="scissors-word"> Scissors</span>
+Decapitate <span class="lizard-word"> Lizard</span>
+</li>
+         <li id="lp"><span class="lizard-word"> Lizard</span>
+Eats<span class="paper-word"> Paper</span>
+</li>
+         <li id="lk"><span class="lizard-word"> Lizard</span>
+Poisons <span id="spock-word"> Spock</span>
+</li>
+         <li id="kr"><span class="spock-word"> Spock</span> Vaporises<span class="rock-word"> Rock </span>
+ </li>
+         <li id="ks"><span class="spock-word"> Spock</span>
+             beats <span class="scissors-word"> Scissors</span>
+
+</li>
+    </ol>
+
+    
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
